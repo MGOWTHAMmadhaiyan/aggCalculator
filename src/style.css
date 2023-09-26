@@ -1,0 +1,29 @@
+.backgroundpropertys {
+  background-color: rosybrown;
+}
+
+.boxcard {
+  margin-left: 350px;
+  margin-top: 200px;
+  height: 17em;
+}
+
+.boxcard .age h1 {
+  display: flex;
+  justify-content: center;
+  font-family: cursive, sans-serif;
+}
+
+.boxcard .dateLable {
+  text-align: center;
+}
+
+.boxcard .get {
+  margin-top: 20px;
+  margin-left: 200px;
+}
+@media (max-width:800px) and (min-width:200px) {
+  .backgroundpropertys {
+    background-color: blueviolet;
+  }
+}
